@@ -1,0 +1,299 @@
+/* 구글 웹 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+
+/* reset */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button, input {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+/* common */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* header style */
+header {
+    background: rgba(255, 255, 255, 0.308);
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+header .main-header {
+    /* background: skyblue; */
+    width: 84%;
+    margin: 0 auto;
+}
+header .main-header .logo {
+    /* background: yellow; */
+    float: left;
+    width: 8%;
+    margin-right: 32%;
+}
+header .main-header .logo a {
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #F8244E;
+}
+header .main-header .logo a:hover {
+    color: #000;
+}
+header .main-header .logo a i {
+    font-size: 36px;
+    margin-right: 5px;
+
+    position: relative;
+    top: 6px;    
+}
+header .main-header .gnb {
+    float: left;
+    /* background: green;     */
+    width: 46%;
+    padding-top: 10px;;
+}
+header .main-header .gnb button {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+
+    cursor: pointer;
+}
+header .main-header .gnb button .search-left {
+    /* background: tomato; */
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 20px;
+}
+header .main-header .gnb button .search-right {
+    float: right;  
+    font-size: 30px;
+    background: #F8244E;    
+    border-radius: 50%;
+
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+
+    position: relative;
+}
+
+header .main-header .gnb button .search-right i {
+    /* background: tomato; */
+    color: #fff;
+    font-size: 12px;
+
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+header .main-header .tnb {
+    float: right;
+    /* background: tomato; */
+    width: 14%;
+}
+/* header .main-header .tnb .menu {
+    background: yellowgreen;
+} */
+header .main-header .tnb .menu li {
+    float: left;
+    font-weight: 500;
+    font-size: 15px;
+}
+header .main-header .tnb .menu li a i {
+    margin: 0 25px;
+}
+header .main-header .tnb .menu li button {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 5px 10px;
+    display: block;
+    margin-top: 20px;
+}
+header .main-header .tnb .menu li button span i{
+    font-size: 16px;
+    position: relative;
+    bottom: 5px;
+    margin: 0 10px 0 5px;
+}
+header .main-header .tnb .menu li button > i {
+    font-size: 30px;
+    color: #707B7C;
+    margin-right: -5px;
+}
+
+/* section help style*/
+section.help {
+    background: #000;
+    color: #fff;
+    padding: 180px 0 100px;
+}
+section.help .help-title {
+    width: 84%;
+    margin: 0 auto;
+    height: 450px;
+    background: #F8244E;
+    border-radius: 10px;
+
+    position: relative;
+}
+section.help .help-title span {
+    /* background: blue; */
+    font-size: 48px;
+    font-weight: 700;    
+    
+    position: absolute;
+    top: 38%;
+    left: 8%;
+}
+section.help .help-title a {
+    width: 8%;
+
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding: 10px 0px 10px 20px;
+
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+section.help .help-title a:hover {
+    border: 2px solid #fff;
+}
+
+/* section main style */
+section.main {
+    background: linear-gradient(to bottom, black 0%, black 50%, white 50%, white 100%);
+}
+section.main .main-title {
+    width: 84%;
+    height: 90vh;
+    margin: 0 auto;
+    background: url('https://a0.muscache.com/im/pictures/a2704500-b282-4411-a2fb-d7f80c4c72a8.jpg?im_w=1200') no-repeat center / cover;
+    border-radius: 10px;
+
+    position: relative;
+}
+section.main .main-title h2 {
+    /* background: tomato; */
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+section.main .main-title a {
+    background: #fff;
+    border-radius: 30px;
+    color: #F8244E;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 20px 35px;
+    
+    position: absolute;
+    top: 84%;
+    left: 46%;
+}
+
+/* section city style */
+section.city {
+    width: 84%;
+    margin: 100px auto 0;
+    background: #fff;
+}
+section h2 {
+    /* background: yellow; */
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+section.city .city-title ul li {
+    float: left;
+    /* background: yellowgreen; */
+    width: 23.875%;
+    margin-right: 1.5%;
+}
+section.city .city-title ul li:last-child {
+    margin-right: 0;
+}
+section.city .city-title ul li a .img-box img {
+    background: tomato;
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section.city .city-title ul li a > div {
+    height: 500px;
+    color: #fff;
+    border-radius: 10px;
+}
+section.city .city-title ul li a > div .top {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 20px 16px;
+}
+section.city .city-title ul li a > div .bottom {
+    font-size: 18px;
+    padding: 0 16px;
+}
+section.city .city-title ul li a .seoul  {
+    background: #F8244E;
+}
+section.city .city-title ul li a .inchen {
+    background: #E74C3C;
+}
+section.city .city-title ul li a .daegu {
+    background: #B9157B;
+}
+section.city .city-title ul li a .daejeon {
+    background: #DC335E;
+}
+
+/* section experience style */
+section.experience {
+    width: 84%;
+    margin: 100px auto 0;
+    background: #fff;
+}
+section.experience .ex-title .ex {
+    float: left;
+    background: url('https://a0.muscache.com/im/pictures/c2adcb16-6c3f-4041-86a1-afa9c303c500.jpg?im_w=720') no-repeat center / cover;
+    width: 49.25%;
+    height: 700px;
+}
+section.experience .ex-title .online-ex {
+
+}
+
+
+
+
+

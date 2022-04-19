@@ -356,6 +356,7 @@ section.experience .ex-container .ex-title .online-ex {
 section.ask {
     background: #fff;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 section.ask .ask-title {
     width: 84%;
@@ -395,6 +396,116 @@ section.ask .ask-title .ask-text a {
     position: absolute;
     left: 70px;
     top: 650px;
+}
+
+/* footer style */
+footer {
+    margin: auto;
+    /* width: 70%; */
+    margin-top: 20px;
+    margin-bottom: 10px;    
+    background:rgb(248, 248, 248);
+}
+footer > div {
+    width: 84%;
+    margin: 0 auto;
+}
+
+footer .topBox {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgrey;
+}
+
+footer .footBox {
+    width: 24%;
+    float: left;
+    margin-right: 1.1%;
+    line-height: 2.5;
+}
+
+footer .footBox ul li:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+footer .footBox h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer .footBox ul li {
+    color: #333;
+}
+
+footer .footBox:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+footer .bottomBox {
+    padding: 20px 0;
+}
+
+footer .bottomBox h3 {
+    float: left;
+}
+
+footer .bottomBox .list {
+    float: left;
+    width: 60%;
+}
+
+footer .bottomBox .list ul li {
+    width: max-content;
+    margin-left: 20px;
+    float: left;
+}
+
+footer .bottomBox .list ul li a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+footer .bottomBox .list ul li span {
+    margin-right: 10px;
+}
+
+footer .bottomBox .languageCurrency {
+    float: left;
+    margin-left: 150px;
+}
+
+footer .bottomBox .languageCurrency ul li a:hover {
+    color: #555;    
+}
+
+footer .bottomBox .languageCurrency ul li {
+    float: left;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+footer .bottomBox .languageCurrency ul li .fa-won-sign {
+    margin-right: 7px;
+}
+
+footer .bottomBox .languageCurrency ul li .fa-globe {
+    margin-right: 7px;
+}
+
+footer .bottomBox .site {
+    float: right;
+    width: 13%;
+}
+
+footer .bottomBox .site .sns ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+footer .bottomBox .site ul li a:hover {
+    color: #555;    
 }
 
 
